@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>   
+    <title>SUBE Validator</title>
+    <meta charset="UTF-8" />
+  </head>
+  <body>
+    <h1>SUBE Validator:</h1>
+    <p>
+      <label for="nro">Número sube</label>
+      <input type="text" id="nro" />
+    </p>
+    <button onclick="sube();">Enviar</button>
+    <script src="sube.js"></script>
+    <script>
+      function sube(){
+        alert( subeVal(document.getElementById("nro").value) );
+      }
+    </script>
+  </body>
+</html>
